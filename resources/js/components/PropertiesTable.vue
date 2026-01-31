@@ -160,15 +160,15 @@ onMounted(() => {
                 style="margin-top: 20px"
             >
                 <template #empty>
-                    No properties found
+                    No results found
                 </template>
-                <el-table-column prop="id" label="ID" width="80" />
-                <el-table-column prop="name" label="Название" min-width="150" />
-                <el-table-column prop="price" label="Цена" width="120" />
-                <el-table-column prop="bedrooms" label="Спальни" width="100" />
-                <el-table-column prop="bathrooms" label="Ванные" width="100" />
-                <el-table-column prop="storeys" label="Этажи" width="100" />
-                <el-table-column prop="garages" label="Гаражи" width="100" />
+                <el-table-column prop="id" label="ID" />
+                <el-table-column prop="name" label="Name" />
+                <el-table-column prop="price" label="Price" />
+                <el-table-column prop="bedrooms" label="Bedrooms" />
+                <el-table-column prop="bathrooms" label="Bathrooms" />
+                <el-table-column prop="storeys" label="Storeys" />
+                <el-table-column prop="garages" label="Garages" />
             </el-table>
         </el-card>
     </div>
